@@ -1,0 +1,15 @@
+Exit Tikt Week 3 day 4.
+
+Today we started by getting an introduction to IP networking  AWS VPC.  It is very important to select which VPC that fits your need. 
+It help to know your workload, IP subnetting as well as networking security in order to run a well-functioning VPC in the AWS cloud. 
+Also, Understanding and implementing Amazon VPC will facilitate the way  to fully use other AWS services.  
+We went over the AWS structure and we were able to know that a VPC is located within an availability zone and AZ is located within a region. 
+VPC can span AZs but not regions.  When creating an AWS VPC you cause the CIDR block between /16 to /28 and your IP addresses should not be overlapping. 
+A VPC will need subnets Public or private or both, an internet gateway, routing tables, subnets security groups and an optional layer of security such as NACLs
+
+
+AS AWS offers so many flexible opinion building a complete IT environment in the cloud, but it was a bit interesting to know that The address range of the VPC cannot be changed after the VPC is created .
+I believe this is done for security and functionality reason that goes inline with AWS practices. 
+
+
+Why ioT uses Ipv4 and not ipv6 considering 
